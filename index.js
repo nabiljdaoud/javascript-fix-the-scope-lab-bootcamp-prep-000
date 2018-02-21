@@ -28,4 +28,4 @@ var funkyFunction = function() {
 var theFunk = funkyFunction()();
 
 // doesn't seem to make any difference:
-theFunk();
+// theFunk();
