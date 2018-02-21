@@ -17,8 +17,8 @@ function add2(n) {
   return n + two;
 }
 
-var funkyFunction = function() {
-  return function() {
+var funkyFunction = function outer() {
+  return function inner() {
     return "FUNKY!";
   };
 };
